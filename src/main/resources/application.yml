@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: jwt-study
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt_spring
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+api:
+  security:
+    token:
+      secret: HOf0Phx56s
